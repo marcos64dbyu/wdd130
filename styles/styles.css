@@ -4,9 +4,28 @@
     --img-width: 150px;
 }
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Class Selectors */
+
+.box {
+    margin: 1rem;
+    border:  1px solid rgba(0, 0, 0, .1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: "000";
+}
+
 nav {
     background-color: var(--nav-h1-border-color);
     padding: var(--nav-p-padding);
+    display: flex; 
+    justify-content: space-around; 
+    align-items: center;
 }
 nav a {
     color: white;
@@ -30,26 +49,35 @@ main {
     max-width: 840px;
 }
 aside {
-    width: 20rem;
-    margin: 1rem;
+    width: 20em;
+    /* margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2);
     padding: 1rem;
     background-color: #eee;
-    color: #333;
+    color: #333; */
     text-align: center;
+    position: relative;
 }
 aside img {
     width: 200px;
     height: auto;
 }
 main img {
-    width: var(--img-width);
-    height: auto;
+    /* width: var(--img-width);
+    height: auto; */
+    float: right;
 }
 
 aside p {
     padding: 0;
 }
+
+aside h2 {
+    position: absolute;
+    top: 100px;
+    left: 120px;
+}
+
 footer{
     margin-top:  15px;
     border-top:  1px solid #000;
