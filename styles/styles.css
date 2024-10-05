@@ -1,6 +1,12 @@
+:root{
+    --nav-h1-border-color: steelblue;
+    --nav-p-padding: 10px;
+    --img-width: 150px;
+}
+
 nav {
-    background-color: steelblue;
-    padding: 10px;
+    background-color: var(--nav-h1-border-color);
+    padding: var(--nav-p-padding);
 }
 nav a {
     color: white;
@@ -8,17 +14,17 @@ nav a {
     padding: 20px;
 }
 h1 {
-    color: steelblue;
+    color: var(--nav-h1-border-color);
 }
 img {
-    width: 150px;
+    width: var(--img-width);
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid var(--nav-h1-border-color);
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 p {
-    padding: 10px;
+    padding: var(--nav-p-padding);
 }
 main {
     max-width: 840px;
@@ -37,7 +43,7 @@ aside img {
     height: auto;
 }
 main img {
-    width: 150px;
+    width: var(--img-width);
     height: auto;
 }
 
