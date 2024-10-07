@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rafting Ecuador</title>
+    <link rel="icon" href="https://byui-cse.github.io/wdd130-ww-course/resources/images/logos/wwr.png" type="image/png">
+    <meta name="description" content="This page is about your opportunity to learn about Ecuador through rafting.">
+    <meta name="author" content="Marco Merizalde">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt+&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=swap');
+        :root {
+            --text-align: center;
+            --primary-color: rgb(0,0,0);
+            --secondary-color: rgb(255,255,255);
+            --width-total: 99.2vw;
+        }
+        * {
+            align-items: center;
+        }
+        body {
+            background-color: white;
+            font-family: Roboto;
+            margin: 0;
+            position: relative;
+            color: var(--primary-color);
+        }
+        nav {
+            font-family: "Edu AU VIC WA NT Guides", cursive;
+            position: absolute;
+            width: var(--width-total);
+            height: 120px;
+            top: -15px;
+            display: flex; 
+            justify-content: space-around; 
+            /* align-items: center;  */
+            background-color: rgba(0, 0, 0, .7);
+            font-weight: bold;
+            font-size: 20px;
+        }
+        
+        nav ul {
+            display: flex;
+        }
+        nav ul img {
+            border-radius: 50px;
+            margin-top: 55px;
+            height: 130px;
+        }
+        nav a {
+            color: var(--secondary-color);
+            padding: 10px 90px; 
+            text-decoration: none; 
+            display: inline-block; 
+            width: 100px;
+            text-align: var(--text-align);
+        } 
+        nav ul li {
+            list-style: none;
+        }
+        #banner {
+            width: var(--width-total);
+            display: block;
+        }   
+        .banner-data {
+            position: absolute;
+            top: 15%; 
+            left: 15%;
+            color: var(--secondary-color);
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 10px;
+        }
+        .banner-data p {
+            font-size: 40px;
+            text-align: var(--text-align);
+        }
+        button {
+            border-radius: 10px;
+            padding: 10px;
+            font-size: 20px;
+            color: var(--secondary-color);
+        }
+        #find-trip {
+            background-color: red; 
+        } 
+        #book-now {
+            background-color: blue;
+        }
+        main {
+            margin: 18px;
+            font-size: 18px;
+        }
+        .box {
+            width: 98%;
+            border:  1px solid rgba(0, 0, 0, .1);
+            padding: 1rem;
+            background-color: #ddd;
+            color: var(--primary-color);
+            border-radius: 10px;
+            display: inline-flex;
+            align-content: center;
+        }
+        .box div {
+            position: relative;
+            padding: 10px 30px;
+            width: 50%;
+            /* align-items: center; */
+            text-align: center;
+        }
+        .box img {
+            border-radius: 10px;
+            width: 100%;
+            height: 400px;
+        }
+        .box p {
+            width: 50%;
+            border-radius: 10px;
+            background-color: rgba(0, 0, 0, .4);
+            color: var(--secondary-color);
+            padding: 30px;    
+            position: absolute;
+            top: 250px;
+        }
+        footer {
+            background-color: #333;
+            color: var(--secondary-color);
+            padding: 10px;
+            text-align: var(--text-align);
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- banner image -->
+    <img id="banner" src="//cdn.aorafting.com/images/homepage/homepage-video-poster.jpg" alt="Rafting">
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><img src="https://byui-cse.github.io/wdd130-ww-course/resources/images/logos/wwr.png" alt="escudo Ecuador" width="150px"></li>
+            <li><a href="#">Trips</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="banner-data">
+        <p>This is a professional Guided Whitewater Rafting Trips</p>
+        <button id="find-trip">Find Your Trip</button>
+        <button id="book-now">Book Now</button>
+    </div>
+    <main>
+        <p>With over 40 years of experience, our company offers top-quality equipment and highly trained guides to ensure you an unforgettable adventure. Explore the rapids of the Amazon and the majesty of the Andes while enjoying a unique experience in the heart of Ecuador. The combination of pristine nature and adrenaline makes Ecuador a must-visit destination for rafting and adventure enthusiasts. Live the excitement to the fullest only with <strong> Ecuador Rafting and Adventures!</strong></p>
+    
+        <aside class="box">
+            <div>
+                <h2>El Río Verde</h2>
+                <img src="https://frentecuador.com/wp-content/uploads/2020/10/RIO-VERDE.jpg" alt="Galapagos Ecuador">
+                <p>Río Verde is located in a rural area on the outskirts of Baños and the jungle, and to reach the site you don't necessarily need a tour guide, as the place is very well signposted. At the end of the river, you will find the Pailón del Diablo waterfall, a beautiful place to visit.</p>
+            </div>
+            <div>
+                <h2>Rio Blanco</h2>
+                <img src="https://frentecuador.com/wp-content/uploads/2020/10/RIO-BLANCO.jpg" alt="Galapagos Ecuador">
+                <p>Río Blanco originates on the western slopes of the Pichincha volcano and flows down the mountains of Mindo. To enter the province of Esmeraldas, it receives waters from the Río Toachi. On its right side, its tributaries flow into the Río Caoní, and on the left side, into the Río Quinindé.
+
+                    Its tributaries are, on the right bank, the Río Caoní, and on the left bank, the Río Quinindé.</p>
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <p>© 2024 Ecuador Rafting. All Right Reserved</p>
+    </footer>
+</body>
+</html>
