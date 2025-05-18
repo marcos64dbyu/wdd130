@@ -21,12 +21,22 @@ p {
     padding: 10px;
 }
 main {
-    width: 20rem;
-    margin: 1rem;
+    max-width: 100%;
+    width: 80rem;
+    margin: 10px;
     border: 1px solid #4b4b48;
     padding: 10px;
     background: #fdfcf2;
     color: #4b4b48;
+}
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid #4b4b48;
+    padding: 1rem;
+    background: #fdfcf2;
+    color: #4b4b48;
+    text-align: center;
 }
 aside img {
     height: auto;
