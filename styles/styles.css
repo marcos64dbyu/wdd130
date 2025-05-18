@@ -20,3 +20,23 @@ img {
 p {
     padding: 10px;
 }
+main {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid #4b4b48;
+    padding: 10px;
+    background: #fdfcf2;
+    color: #4b4b48;
+}
+main img {
+    height: auto;
+    width: 150px;
+}
+main p {
+    padding: 0;
+}
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;    
+}
