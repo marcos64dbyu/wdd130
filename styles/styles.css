@@ -28,11 +28,11 @@ main {
     background: #fdfcf2;
     color: #4b4b48;
 }
-main img {
+aside img {
     height: auto;
     width: 150px;
 }
-main p {
+aside p {
     padding: 0;
 }
 footer {
