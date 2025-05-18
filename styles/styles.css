@@ -21,13 +21,7 @@ p {
     padding: 10px;
 }
 main {
-    max-width: 100%;
-    width: 80rem;
-    margin: 10px;
-    border: 1px solid #4b4b48;
-    padding: 10px;
-    background: #fdfcf2;
-    color: #4b4b48;
+    max-width: 840px;
 }
 aside {
     width: 20rem;
