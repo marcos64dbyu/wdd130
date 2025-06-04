@@ -145,18 +145,28 @@ nav, p, section, article {
     padding: 1rem;
     background-color: var(--accent1-color);
     color: var(--accent2-color);
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem; /* espaciado entre imágenes */
 }
 
 .adventure h2 {
+    width: 100%;
     text-align: center;
     font-size: 1.5rem;
     margin-bottom: 16px;
 }
 
-.adventure img {
-    margin-left: 0.9rem;
-    width: auto;
+.adventure figure {
+    margin: 0;
+}
+
+.adventure figure img {
     height: 250px;
+    width: auto;
+    display: block;
 }
 
 footer {
