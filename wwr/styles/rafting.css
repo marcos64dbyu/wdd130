@@ -112,7 +112,7 @@ nav, p, section, article {
 
 .contact section h2 {
     font-size: 3rem; 
-    color: var(--primary-color);
+    color: var(--secondary-color);
     margin: 10px 0;
     font-family: var(--heading-font);
 }
