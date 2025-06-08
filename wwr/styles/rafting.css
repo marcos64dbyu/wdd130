@@ -91,17 +91,16 @@ nav, p, section, article {
     display: flex;
     width: 95%;
     margin: 1rem auto;
-    background-color: var(--accent2-color);
 }
 
 .contact section {
     flex: 1;
     padding: 1rem;
-    margin: 1.5rem;
-    border: 1px solid var(--secondary-color);
+    margin: 3rem;
     border-radius: 8px;
     font-family: var(--body-font);
     font-size: 1rem; 
+    background-color: white;
 }
 
 .contact section h1 {
@@ -120,10 +119,27 @@ nav, p, section, article {
 .contact section p {
     margin: 0.5rem 0;
     font-size: 0.95rem; 
+    padding-left: 50px;
+}
+
+.contact section p a {
+    font-weight: 900;
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.contact section form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    background-color: var(--accent2-color);
+    padding: 1rem;
+    border-radius: 10px;
 }
 
 .information {
-    border: 1px solid var(--secondary-color);
+    background-color: var(--accent2-color);
+    border: 1px solid var(--accent2-color);;
     border-radius: 10px;
 }
 .contact section iframe{

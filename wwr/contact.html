@@ -46,23 +46,31 @@
                 </div>
             </section>
             <section>
-                <h1>Contact Us</h1>
-                <h2>Get in Touch</h2>
-                <p>We'd love to hear from you! Whether you have questions about our rafting trips, 
-                    need help with bookings, or just want to share your rafting experiences, feel free to reach out.</p>
-                <p>Address: <a href="https://maps.app.goo.gl/HG2RFwwZPsqwZ5aZ7" title="Visit us in La Florida y Machala">La Florida y Machala</a></p>
-                <p>Phone: <a href="tel:+593999999999" title="Call us at +593 9 9999 9999">+593 9 9999 9999</a></p>
-                <p>Email: <a href="mailto:info@frografting.com" title="Email us at info@frografting.com">info@frografting.com</a></p>
                 <form>
                     <label for="name">Name:</label>
                     <input type="text" id="name" name="name" required placeholder="Your Name">
 
                     <label for="email">Email:</label>
                     <input type="email" id="email" name="email" required placeholder="Your Email">
+                    
+                    <label for="purpose">Purpose Message:</label>
+                    <div>
+                        <input type="radio" id="Inquiry" name="purpose" value="General Inquiry" required>
+                        <label for="Inquiry">General Inquiry</label><br>
+                        <input type="radio" id="Question" name="purpose" value="Reservation Question">
+                        <label for="Question">Reservation Question</label><br>
+                        <input type="radio" id="Suggestion" name="purpose" value="Website Suggestion">
+                        <label for="Suggestion">Website Suggestion</label>
+                    </div>
 
                     <label for="message">Message:</label>
                     <textarea id="message" name="message" rows="4" required placeholder="Your Message"></textarea>
 
+                    <div>
+                        <input type="checkbox" id="subscribe" name="subscribe">
+                        <label for="subscribe">Subscribe to our newsletter</label>
+                    </div>
+                    
                     <button type="submit">Send Message</button>
                 </form>
             </section>
