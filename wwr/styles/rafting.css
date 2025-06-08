@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #8EBF45; /* Yellow */
+    --primary-color: #37471A; /* Yellow */
     --secondary-color: #266B73; /* Green */
     --accent1-color: #000000; /* Light Blue */
     --accent2-color: #F2F2F2; /* Light Pink */
@@ -116,7 +116,7 @@ nav, p, section, article {
     width: 83%;
     background-color: var(--accent1-color);
     opacity: 0.85;
-    color: white; /* white */
+    color: var(--accent2-color);
 }
 
 .hero article img {
