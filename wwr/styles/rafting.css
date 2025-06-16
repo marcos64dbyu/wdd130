@@ -34,7 +34,6 @@ header img {
     height: auto;
 }
 
-/* class selector */
 
 .navigation {
     display: flex;
@@ -43,10 +42,6 @@ header img {
     padding: 0;
     font-family: var(--heading-font);
     
-}
-
-.pageselected {
-    font-weight: 800;
 }
 
 .navigation li {
@@ -79,17 +74,7 @@ body {
     color: var(--accent1-color);
 }  
 
-button {
-    background-color: var(--primary-color);
-    width: 50%;
-    height: 50px;
-    color: var(--secondary-color);
-    border: none;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-    font-size: 1rem;
-}
+
 
 h1, h2 {
     font-family: var(--heading-font);
@@ -336,7 +321,6 @@ nav, p, section, article {
     width: 95%;
     margin: 3rem auto;
 }
-
 .sectionblock section {
     gap:30px;
     width: 50%;
@@ -376,95 +360,16 @@ nav, p, section, article {
     align-items: center;
 }
 
-
-
-.sectionblock div {
-    padding-left: 3rem;
-    gap: 1rem;
-}
-
-.sectionblock div p {
-    padding: 0;
-    margin: 0;
-    width: 500px;
-    margin-bottom: 50px;
-}
-
-.sectionblock div article {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid var(--secondary-color);
-    width: 550px;
-    border-radius: 10px;
-    position: absolute;
-    top: 400px;
-    right: 5vw;
-    padding: 26px;
-}
-
-.sectionblock div article h1 {
-    text-align: left;
-    width: 100%;
-}
-
-.sectionblock div article button {
-    width: 60%;
-}
-
-.sectionblock div div{
-    display: grid;
-    padding-left: 0;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-.sectionblock div div aside {
-    border: 1px solid var(--secondary-color);
-    width: 22vw;
-    height: auto;
-    border-radius: 10px;
-}
-
-.sectionblock div div aside img {
-    width: 21.89vw;
-    height: auto;
-    border-radius: 10px 10px 0 0;
-}
-
-.sectionblock div div aside h1 {
-    padding: 15px;
-    margin-top: -80px;
-    z-index: 1;
-    position: relative;
-    color: white;
-}
-
-.sectionblock div div aside p {
-    width: 100%;
-    margin-top: 10px;
-    padding: 1vw;
-    font-size: 15px;
-    margin-bottom: 0px;
-}
-
-.sectionblock div div aside span {
-    font-weight: 700;
-}
-
-.image-container {
-    position: relative;
-    width: 100%;
-    height: auto;
-    
-}
-
-.image-container .image-overlay {
-    border-radius: 10px 10px 0 0;
-    opacity: 0.4;
-}
-
-.sectionblock div div aside.adventure-contact-space {
+.sectionblock section div button {
+    background-color: var(--primary-color);
+    width: 50%;
+    height: 50px;
+    color: var(--secondary-color);
     border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem;
 }
 
 .singup {
