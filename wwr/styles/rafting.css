@@ -316,6 +316,90 @@ nav, p, section, article {
     display: block;
 }
 
+.sectionblock {
+    display: flex;
+    width: 95%;
+    margin: 3rem auto;
+}
+.sectionblock section {
+    gap:30px;
+    width: 50%;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    padding: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionblock section h1 {
+    width: 550px;
+    grid-column: 1 / -1;
+    text-align: left;
+    font-size: 1rem;
+    color: var(--secondary-color);
+    font-family: var(--heading-font);
+}
+
+.sectionblock section span {
+    color: var(--secondary-color);
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.sectionblock section img {
+    width: 100%;
+    height: auto;
+}
+
+.sectionblock section div {
+    display: flex;
+    flex-direction: column;
+    grid-column-start: span 2;
+    border-radius: 10px;
+    align-items: center;
+}
+
+.sectionblock section div button {
+    background-color: var(--primary-color);
+    width: 50%;
+    height: 50px;
+    color: var(--secondary-color);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+
+.singup {
+    background-color: var(--accent2-color);
+    width: 550px;
+    border-radius: 20px;
+    padding: 2rem;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.singup label {
+    font-weight: bold;
+    text-align: left;
+    width: 90%;
+    color: var(--secondary-color);
+}
+
+.singup input {
+    padding: 0.5rem;
+    border: 1px solid var(--secondary-color);
+    border-radius: 5px;
+    width: 90%;
+    height: 45px;
+    font-size: 1rem;
+}
+
+
 footer {
     display:  grid;
     grid-template-columns: 300px 1fr 300px;
