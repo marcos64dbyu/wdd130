@@ -351,6 +351,7 @@ nav, p, section, article {
     width: 550px;
     grid-column: 1 / -1;
     text-align: left;
+    padding-left: 1.5rem;
     font-size: 1rem;
     color: var(--secondary-color);
     font-family: var(--heading-font);
